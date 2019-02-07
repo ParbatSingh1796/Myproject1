@@ -1,19 +1,4 @@
 
-<?php
-  /* this will show message when user account deleted successfully*/
-	if(isset($_GET["del"])){
-		  echo "<script type='text/javascript'>alert('Your account deleted successfully')</script>";
-	}
-  /*this will show message when user successfully registered*/
-	if(isset($_GET["succ"])){
-		  echo "<script type='text/javascript'>alert('You are registered successfully')</script>";
-	}
-  /*this will show message when user already registered with enterd email-id*/
-	if(isset($_GET["reg"])){
-		  echo "<script type='text/javascript'>alert('You are already registered')</script>";
-	}
-?>
-<!-- php code end here  -->
   <!--Bootstrap library -->
 <link rel="stylesheet" href="bootstrap.min.css">
 
